@@ -3,6 +3,7 @@ mocha-multi-reporters-demo
 
 Simple demo for mocha-multi-reporters package
 
+[![StyleCI](https://styleci.io/repos/48826897/shield)](https://styleci.io/repos/48826897)
 [![Build Status](https://travis-ci.org/stanleyhlng/mocha-multi-reporters-demo.svg)](https://travis-ci.org/stanleyhlng/mocha-multi-reporters-demo)
 [![Dependency Status](https://img.shields.io/david/stanleyhlng/mocha-multi-reporters-demo.svg?style=flat-square)](https://david-dm.org/stanleyhlng/mocha-multi-reporters-demo)
 [![devDependency Status](https://img.shields.io/david/dev/stanleyhlng/mocha-multi-reporters-demo.svg?style=flat-square)](https://david-dm.org/stanleyhlng/mocha-multi-reporters-demo#info=devDependencies)
