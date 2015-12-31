@@ -7,3 +7,5 @@ node_js:
 - '0.10'
 - iojs
 sudo: false
+after_success:
+- echo 'build succeed'
