@@ -8,8 +8,8 @@ if [ "$TRAVIS_REPO_SLUG" == "stanleyhlng/mocha-multi-reporters-demo" ] && [ "$TR
   git config --global user.name "travis-ci"
 
   npm version patch -m "Auto bumping version to %s"
-  
-  git config push.default current && git push origin && git push --tags origin
+
+  git push origin master && git push --tags origin master
 
   echo -e "Bumped.\n"
 
