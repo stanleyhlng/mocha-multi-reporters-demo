@@ -1,0 +1,36 @@
+{
+  "name": "mocha-multi-reporters-demo",
+  "version": "1.0.0",
+  "description": "Simple demo for mocha-multi-reporters package",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "mocha-multi-reporters": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "test": "mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json"
+  },
+  "author": "Stanley Ng <stanleyhlng77-dev@yahoo.com.hk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleyhlng/mocha-multi-reporters-demo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^7.1.1",
+    "pre-commit": "^1.1.2"
+  },
+  "keywords": [
+    "mocha",
+    "reporter"
+  ],
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "eslintConfig": {
+    "extends": "defaults"
+  }
+}
