@@ -6,14 +6,14 @@ if [ "$TRAVIS_REPO_SLUG" == "stanleyhlng/mocha-multi-reporters-demo" ] && [ "$TR
 
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "travis-ci"
+  git checkout master
 
   npm version patch -m "[skip ci] Auto bumping version to %s"
 
   git remote -v
   git remote remove origin
   git remote add origin https://${GH_TOKEN}@github.com/stanleyhlng/mocha-multi-reporters-demo.git
-  git checkout master
-  git push origin master && git push --tags origin master
+  git config push.default current && git push origin && git push --tags origin
 
   echo -e "Bumped.\n"
 
