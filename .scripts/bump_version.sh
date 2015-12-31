@@ -12,6 +12,7 @@ if [ "$TRAVIS_REPO_SLUG" == "stanleyhlng/mocha-multi-reporters-demo" ] && [ "$TR
   git remote -v
   git remote remove origin
   git remote add origin https://${GH_TOKEN}@github.com/stanleyhlng/mocha-multi-reporters-demo.git
+  git checkout master
   git config push.default current && git push origin && git push --tags origin
 
   echo -e "Bumped.\n"
