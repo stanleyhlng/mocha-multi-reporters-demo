@@ -7,7 +7,7 @@ if [ "$TRAVIS_REPO_SLUG" == "stanleyhlng/mocha-multi-reporters-demo" ] && [ "$TR
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "travis-ci"
 
-  npm version patch -m "Auto bumping version to %s"
+  npm version patch -m "[skip ci] Auto bumping version to %s"
 
   git remote -v
   git remote remove origin
