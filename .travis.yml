@@ -8,4 +8,4 @@ node_js:
 - iojs
 sudo: false
 after_success:
-- echo 'build succeed'
+- .scripts/bump_version.sh
