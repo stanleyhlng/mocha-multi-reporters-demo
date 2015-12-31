@@ -9,6 +9,9 @@ if [ "$TRAVIS_REPO_SLUG" == "stanleyhlng/mocha-multi-reporters-demo" ] && [ "$TR
 
   npm version patch -m "Auto bumping version to %s"
 
+  git remote -v
+  git remote remove origin
+  git remote add origin https://${GH_TOKEN}@github.com/stanleyhlng/mocha-multi-reporters-demo.git
   git push origin master && git push --tags origin master
 
   echo -e "Bumped.\n"
