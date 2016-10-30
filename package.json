@@ -1,6 +1,6 @@
 {
   "name": "mocha-multi-reporters-demo",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Simple demo for mocha-multi-reporters package",
   "dependencies": {
     "chai": "^3.5.0",
