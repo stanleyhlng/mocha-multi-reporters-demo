@@ -18,8 +18,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-defaults": "^7.1.1",
+    "eslint": "^3.9.0",
+    "eslint-config-defaults": "^9.0.0",
     "mocha-junit-reporter": "^1.12.1",
     "pre-commit": "^1.1.3"
   },
