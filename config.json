@@ -1,9 +1,3 @@
 {
-    "reporterEnabled": "tap,xunit,mocha-junit-reporter",
-    "xunitReporterOptions": {
-        "output": "xunit-custom.xml"
-    },
-    "mochaJunitReporterReporterOptions": {
-	"mochaFile": "junit-custom.xml"
-    }
+    "reporterEnabled": "tap"
 }
